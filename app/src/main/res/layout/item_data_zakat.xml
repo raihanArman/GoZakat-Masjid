@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginBottom="10dp"
+    app:cardCornerRadius="5dp"
+    android:elevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv_tanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13 Desember 2019"
+            android:textColor="#4CAF50"
+            android:layout_margin="8dp"
+            android:textSize="15sp"
+            android:layout_alignParentRight="true"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_jenis_zakat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Zakat profesi"
+                android:fontFamily="@font/nunito_bold"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:id="@+id/tv_nama_muzakki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="Muzakki"
+                android:fontFamily="@font/nunito"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:id="@+id/tv_nama_mustahiq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="Mustahiq"
+                android:fontFamily="@font/nunito"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:id="@+id/tv_nominal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="Nominal"
+                android:fontFamily="@font/nunito"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

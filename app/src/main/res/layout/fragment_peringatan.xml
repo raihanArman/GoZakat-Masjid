@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.penyaluran.PeringatanFragment"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_info_outline_black_24dp"
+        android:tint="#FFEB3B"/>
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_nama_muzakki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Muzakki"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:fontFamily="@font/nunito"/>
+        <TextView
+            android:id="@+id/tv_nama_muzakki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Mustahiq"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:fontFamily="@font/nunito"/>
+
+        <TextView
+            android:id="@+id/tv_nominal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nominal"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:fontFamily="@font/nunito"/>
+
+        <TextView
+            android:id="@+id/tv_jenis_zakat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Zakat"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:fontFamily="@font/nunito"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_peringatan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apakah anda yakin ingin menyalurkan ke mustahiq ?"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/nunito"
+        android:layout_marginBottom="8dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="#EEECEC"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/tv_ya"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:text="Ya, saya yakin"/>
+        <TextView
+            android:id="@+id/tv_belum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="Belum yakin"
+            android:layout_marginBottom="5dp"/>
+    </LinearLayout>
+
+</LinearLayout>
